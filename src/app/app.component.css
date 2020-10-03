@@ -1,0 +1,30 @@
+.form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 800px;
+}
+.input {
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+  height: 420px;
+  width: 300px;
+}
+.file-input {
+  padding-bottom: 20px;
+}
+.text-input {
+  height: 100%;
+  min-height: 60px;
+  width: 300px;
+}
+.text-output {
+  height: 100%;
+  width: 300px;
+  min-height: 420px;
+}
+
+.submit {
+  font-size: 18px;
+}
