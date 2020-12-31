@@ -19,9 +19,15 @@
       class="submit"
       type="submit"
       (click)="assemble()">
+    <div class="output">
     <textarea
       type="text"
       formControlName="output"
       class="text-output"></textarea>
+      <input
+        type="button"
+        class="file-output"
+        (change)="onDownload()"/>
+    </div>
   </form>
 </div>
